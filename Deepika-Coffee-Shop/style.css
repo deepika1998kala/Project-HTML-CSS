@@ -1,0 +1,260 @@
+/* Reset Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+/* Header Style*/
+
+header {
+  background-color: burlywood;
+  color: brown;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 50px;;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Hero Section */
+
+#hero {
+  background-image: url("images/hero.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: antiquewhite;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  color: antiquewhite;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: burlywood;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: gray;
+}
+
+/* About Section */
+
+#about {
+  background-image: url("images/about.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  opacity: 80;
+}
+
+.about-text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-text h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: maroon;
+}
+
+.about-text p {
+  font-size: 18px;
+  color: maroon;
+}
+
+/* Menu Section */
+
+#menu {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+}
+
+.menu-text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.menu-text h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #555;
+  padding-top: 2vh;
+}
+
+.menu-text p {
+  font-size: 20px;
+  color: #555;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.menu-item {
+  background-color: #fff;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.menu-item img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.menu-item h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.menu-item p {
+  color: #777;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+}
+
+
+/* Contact Section */
+
+#contact {
+  padding: 80px 0;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #eee;
+  background-image: url("https://i0.wp.com/gdcindia.co.in/wp-content/uploads/2019/03/contact-us-background.jpg?ssl=1");
+}
+
+.contact-text {
+  text-align: center;
+  margin-bottom: 50px;
+  display:flex;
+}
+
+.contact-text h2 {
+  font-size: 32px;
+  font-weight: bold;
+  /* margin-bottom: 20px; */
+  margin-top: 30px;
+  color: black;
+}
+
+.contact-text p {
+  font-size: 18px;
+  color: black;
+  margin-top: 45px;
+}
+
+.contact-form {
+  text-align: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #ffbd39;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #ffb30f;
+}
+
+/* Footer */
+
+footer {
+  background-color: gray;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
